@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.json());
 
+// An irrlevant comment for PR creation
 app.use("/users", usersRoutes);
 app.use("/health", healthRoutes);
 
